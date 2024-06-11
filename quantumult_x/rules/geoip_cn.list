@@ -1,0 +1,9 @@
+# geoip
+# Author by Shay
+# 2024/06/11
+# 会调用GeoIPLite2数据库，使国内网站不走代理。
+# 建议添加后长按规则挪动到最下方。
+# 建议手动替换[GeoIP数据库]
+# https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+
+geoip,cn,direct
